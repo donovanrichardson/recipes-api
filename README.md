@@ -1,8 +1,8 @@
 # W08-D04
 
-# Recipes API Part 3
+# Recipes API Part 3 (Add JWT & Deploy)
 
-## Part1 - create the RESTful API app - Add JWT & Deploy 
+## Part1 - create the RESTful API app
 Using the following command `rails new recipe-api --api -skip-active-storage` create a new rest API project.
 
 ## Part2 - create a model
