@@ -2,7 +2,7 @@
 
 # Recipes API Part 3
 
-## Part1 - create the RESTful API app 
+## Part1 - create the RESTful API app - Add JWT & Deploy 
 Using the following command `rails new recipe-api --api -skip-active-storage` create a new rest API project.
 
 ## Part2 - create a model
