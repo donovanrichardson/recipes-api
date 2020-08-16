@@ -44,4 +44,27 @@ Now go ahead and create all the rest controller methods here. The RESTful API mu
 ||PUT|/recipes/:id(.:format)|recipes#update|
 ||DELETE|/recipes/:id(.:format)|recipes#destroy|
 
-## Part4 - Test your RESTful API using POSTMAN
+## Part4 - set the routes
+Configure the routes `todos-api/config/routes.rb`
+
+## Part5 - Test your RESTful API using POSTMAN
+
+<hr>
+## How to submit homework
+### Setup
+- Step 1. Fork the repository
+- Step 2. Clone your fork
+### Submitting work
+- Step 1. Create a folder for the specific homework
+- Step 2. Push to your fork
+- Step 3. Submit a pull request
+- Step 3.1. Add a title (First name, Last Name) and comment
+
+In the comment section, you must add the following:
+```text
+* Comfortability [0 to 5]
+* Completeness [0 to 5]
+* What was a win?
+* What was a challenge?
+* Any other comments
+```
