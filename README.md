@@ -49,7 +49,6 @@ Configure the routes ```recipes-api/config/routes.rb```
 
 ## Part5 - Test your RESTful API using POSTMAN
 
-<hr>
 ## How to submit homework
 
 ### Setup
