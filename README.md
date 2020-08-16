@@ -45,7 +45,7 @@ Now go ahead and create all the rest controller methods here. The RESTful API mu
 ||DELETE|/recipes/:id(.:format)|recipes#destroy|
 
 ## Part4 - set the routes
-Configure the routes `recipes-api/config/routes.rb`
+Configure the routes ```recipes-api/config/routes.rb```
 
 ## Part5 - Test your RESTful API using POSTMAN
 
