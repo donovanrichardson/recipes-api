@@ -45,15 +45,17 @@ Now go ahead and create all the rest controller methods here. The RESTful API mu
 ||DELETE|/recipes/:id(.:format)|recipes#destroy|
 
 ## Part4 - set the routes
-Configure the routes `todos-api/config/routes.rb`
+Configure the routes `recipes-api/config/routes.rb`
 
 ## Part5 - Test your RESTful API using POSTMAN
 
 <hr>
 ## How to submit homework
+
 ### Setup
 - Step 1. Fork the repository
 - Step 2. Clone your fork
+
 ### Submitting work
 - Step 1. Create a folder for the specific homework
 - Step 2. Push to your fork
