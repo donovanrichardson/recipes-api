@@ -29,20 +29,20 @@ Your final models should look like this.
 Now that our model is all set up, let's generate the controller.
 
 ```
-rails g controller Categories
+rails g controller Category
 ```
-File path ```app/controllers/categories_controller.rb```
+File path ```app/controllers/category_controller.rb```
 
 Now go ahead and create all the rest controller methods here. The RESTful API must consist of the endpoints. 
 
 |Prefix| Verb|URI Pattern| Controller#Action |
 |--|--|--|--|
-|categories|GET| /categories(.:format)| categories#index|
-||POST|/categories(.:format)|categories#create|
-|category|GET|/categories/:id(.:format)|categories#show|
-||PATCH|/categories/:id(.:format)|categories#update|
-||PUT|/categories/:id(.:format)|categories#update|
-||DELETE|/categories/:id(.:format)|categories#destroy|
+|category|GET| /category(.:format)| category#index|
+||POST|/category(.:format)|category#create|
+|category|GET|/category/:id(.:format)|category#show|
+||PATCH|/category/:id(.:format)|category#update|
+||PUT|/category/:id(.:format)|category#update|
+||DELETE|/category/:id(.:format)|category#destroy|
 
 ## Part4 - set the routes
 Configure the routes ```recipes-api/config/routes.rb```
