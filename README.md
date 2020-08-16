@@ -37,12 +37,12 @@ Now go ahead and create all the rest controller methods here. The RESTful API mu
 
 |Prefix| Verb|URI Pattern| Controller#Action |
 |--|--|--|--|
-|recipes|GET| /recipes(.:format)| recipes#index|
-||POST|/recipes(.:format)|recipes#create|
-|recipe|GET|/recipes/:id(.:format)|recipes#show|
-||PATCH|/recipes/:id(.:format)|recipes#update|
-||PUT|/recipes/:id(.:format)|recipes#update|
-||DELETE|/recipes/:id(.:format)|recipes#destroy|
+|categories|GET| /categories(.:format)| categories#index|
+||POST|/categories(.:format)|categories#create|
+|category|GET|/categories/:id(.:format)|categories#show|
+||PATCH|/categories/:id(.:format)|categories#update|
+||PUT|/categories/:id(.:format)|categories#update|
+||DELETE|/categories/:id(.:format)|categories#destroy|
 
 ## Part4 - set the routes
 Configure the routes ```recipes-api/config/routes.rb```
