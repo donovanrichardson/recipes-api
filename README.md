@@ -26,7 +26,7 @@ t.text :description
 t.bigint :created_by
 ```
 
->Think: In which file should you add the two lines above? What is `t`?
+>Think: In which file should you add the three lines above? What is `t`?
 
 Once you're done customizing the migration, you can create the table in the database using `rails db:migrate`.
 
