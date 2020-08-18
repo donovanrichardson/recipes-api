@@ -1,5 +1,3 @@
-# W08-D03
-
 # Recipes API Part 1
 
 ## Part1 - create a new app
