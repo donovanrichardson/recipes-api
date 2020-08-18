@@ -22,6 +22,7 @@ The table for this model needs to have the following fields:
 
 ```ruby
 t.string :title
+t.text :description
 t.bigint :created_by
 ```
 
@@ -31,7 +32,7 @@ Once you're done customizing the migration, you can create the table in the data
 
 The diagram for your `Category` model should look like this:
 
-![Model categories](categories-erd.png)
+![Model categories](categories.png)
 
 ## Part3 - adding a controller
 
