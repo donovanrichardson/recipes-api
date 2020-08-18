@@ -3,37 +3,47 @@
 # Recipes API Part 1
 
 ## Part1 - create a new app
-In this homework series, we are going to build fully-functional recipes API. We can create our rails app using the following command.
 
-```rails new recipes-api --api -skip-active-storage```
+In this homework series, we are going to build a fully-functional recipes API. We can create our Rails app using the following command:
+
+```bash
+rails new recipes-api --api -skip-active-storage
+```
 
 ## Part2 - create a model
 
-Let's go ahead and create a new model, name this model as `Category`. We can use the following command to generate the model `rails g model Category`.
+Let's go ahead and create a new model named `Category`. First navigate into the new project directory by typing `cd recipes-api`, then use the following command to generate the model:
 
-This model should be consist of the following `fields`.
+```bash
+rails g model Category
+```
 
-```text
+The table for this model needs to have the following fields:
+
+```ruby
 t.string :title
 t.bigint :created_by
 ```
 
-Once you're done adding the fields, you can create the migration file using the following command `rails d migration 'created_the_category_table` and finally create the table using `rails db:migrate`.
+>Think: In which file should you add the two lines above? What is `t`?
 
-Your final models should look like this.
+Once you're done customizing the migration, you can create the table in the database using `rails db:migrate`.
+
+The diagram for your `Category` model should look like this:
 
 ![Model categories](categories-erd.png)
 
-
 ## Part3 - adding a controller
-Now that our model is all set up, let's generate the controller.
 
-```
+Now that our first model is all set up, let's generate the controller.
+
+```bash
 rails g controller Category
 ```
-File path ```app/controllers/category_controller.rb```
 
-Now go ahead and create all the rest controller methods here. The RESTful API must consist of the endpoints. 
+This creates a new file at `recipes-api/app/controllers/category_controller.rb`.
+
+In that file, go ahead and create all the REST controller methods. The RESTful API must consist of the following endpoints:
 
 |Prefix| Verb|URI Pattern| Controller#Action |
 |--|--|--|--|
@@ -45,23 +55,33 @@ Now go ahead and create all the rest controller methods here. The RESTful API mu
 ||DELETE|/category/:id(.:format)|category#destroy|
 
 ## Part4 - set the routes
-Configure the routes ```recipes-api/config/routes.rb```
+
+Configure the routes in `recipes-api/config/routes.rb` !
+
+>Use the information in the table above to refer each route to the correct controller.
 
 ## Part5 - test your RESTful API using POSTMAN
+
+Make sure each endpoint *works*... Not just that the server doesn't break, but that it does exactly what you expect it to do!
+
+>What information should be in your Postman request for a POST request? How about a PATCH or PUT?
 
 ## How to submit homework
 
 ### Setup
+
 - Step 1. Fork the repository
 - Step 2. Clone your fork
 
 ### Submitting work
+
 - Step 1. Create a folder for the specific homework
 - Step 2. Push to your fork
 - Step 3. Submit a pull request
 - Step 3.1. Add a title (First name, Last Name) and comment
 
 In the comment section, you must add the following:
+
 ```text
 * Comfortability [0 to 5]
 * Completeness [0 to 5]
