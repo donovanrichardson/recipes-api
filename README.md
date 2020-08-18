@@ -7,7 +7,7 @@
 In this homework series, we are going to build a fully-functional recipes API. We can create our Rails app using the following command:
 
 ```bash
-rails new recipes-api --api --skip-active-storage
+rails new recipes-api --api
 ```
 
 ## Part2 - create a model
