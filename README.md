@@ -17,7 +17,9 @@ Are you stuck? use [this](https://www.youtube.com/playlist?list=PLY6oTPmKnKbaerY
 *These videos will not only help to you with this assignment but a be useful reference for your project from beginning to end
 
 **More Reference**
+
 DEPLOYMENT MARKDOWNS: https://git.generalassemb.ly/SEIR-629/git_branch_ruby_deploy
+
 AUTH MARKDOWNS: https://git.generalassemb.ly/SEIR-629/ruby-rails-auth/blob/master/rubyauth.md
 
 ## How to submit homework
