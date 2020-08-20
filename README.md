@@ -14,6 +14,11 @@ To receive a full credit to this assignment, you must us provide with the follow
 - user name and password for the login endpoint
 
 Are you stuck? use [this](https://www.youtube.com/playlist?list=PLY6oTPmKnKbaerYuOKc9UxaKOS1k4qFWU) as a reference.
+*These videos will not only help to you with this assignment but a be useful reference for your project from beginning to end
+
+**More Reference**
+DEPLOYMENT MARKDOWNS: https://git.generalassemb.ly/SEIR-629/git_branch_ruby_deploy
+AUTH MARKDOWNS: https://git.generalassemb.ly/SEIR-629/ruby-rails-auth/blob/master/rubyauth.md
 
 ## How to submit homework
 
