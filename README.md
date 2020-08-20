@@ -3,6 +3,7 @@
 Welcome to part 3 of the recipes homework, so far you have completed the following.
 
 [Part 1](https://git.generalassemb.ly/SEIR-629/W08-D02-HW)
+
 [Part 2](https://git.generalassemb.ly/SEIR-629/W08-D02-HW-P2)
 
 In this homework, you will add the authentication to your RESTful API and upload it to the Heroku.
