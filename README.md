@@ -13,6 +13,8 @@ To receive a full credit to this assignment, you must us provide with the follow
 - Link to Heroku URL
 - user name and password for the login endpoint
 
+Are you stuck? use [this](https://www.youtube.com/playlist?list=PLY6oTPmKnKbaerYuOKc9UxaKOS1k4qFWU) as a reference.
+
 ## How to submit homework
 
 ### Setup
